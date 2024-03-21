@@ -1,0 +1,350 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main1{
+    display:block;
+    text-align: center;
+    padding: 5%;
+    background-image: url(image1.jpg);
+    background-size: 90%;
+    height: 25rem;
+    color: #fff;
+    line-height: 30px;
+}
+.titre{
+    border: 1px solid black;
+    background-color: #605555;
+    width: 30%;
+    margin-left: 35%;
+}
+.paragraphe{
+    text-align: center;
+}
+.main > img{
+    border-radius: 15px;
+}
+.pro{
+    border:1px solid #369E8A;
+    border-radius: 50%;
+    width: 70px;
+    height: 65px;
+    padding: 20px;
+}
+.des{
+    border:1px solid #369E8A;
+    border-radius: 50%;
+    width: 70px;
+    height: 65px;
+    padding: 20px;
+}
+.mark{
+    border:1px solid #369E8A;
+    border-radius: 50%;
+    width: 70px;
+    height: 65px;
+    padding: 20px;
+}
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.matiere{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #fff;
+    padding: 5%;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.bakeli{
+    padding: 5%;
+    background-color: #c4c4c481;
+}
+.photo{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.photo,.image{
+    width: 312px;
+}
+.main4{
+    padding: 10%;
+}
+.lorem{
+    text-align: center;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.side-bare1{
+    display: flex;
+    justify-content: space-around;
+}
+.pratique{
+    width: 95%;
+    background-color: #A5C0AD;
+    padding: 7px;
+    border-radius: 50px;
+}
+.bar{
+    display: flex;
+    justify-content: space-around;
+}
+.opportun{
+    width: 250PX;
+    background-color: #C4C4C4;
+    height: 14px;
+    border-radius: 50px;
+}
+.opportunite1{
+    width: 80%;
+    background-color: #A5C0AD;
+    padding: 7px;
+    border-radius: 50px;
+}
+.opportunite{
+    background-color: #C4C4C4;
+    height: 14px;
+    border-radius: 50px;
+}
+.bakeliste1{
+    width: 80%;
+    background-color: #A5C0AD;
+    padding: 7px;
+    border-radius: 50px;
+}
+.bar2{
+    display: flex;
+    justify-content: space-around;
+}
+.opport{
+    width: 270px;
+    background-color: #C4C4C4;
+    height: 14px;
+    border-radius: 50px;
+}
+.insere2{
+    width: 70%;
+    background-color: #A5C0AD;
+    padding: 7px;
+    border-radius: 50px;
+}
+.peps{
+    display: flex;
+    justify-content: space-around;
+}
+.mots3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 95px;
+    margin-left: -100px;
+}
+.main5{
+    background-color: #A5C0AD;
+    padding: 5%;
+}
+.team{
+    text-align: center;
+    padding: 10%;
+    color: #fff;
+}
+.avatar{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px; 
+}
+.avatar :hover{
+    transform: translatey(10px);
+}
+
+.sect0{
+    display: flex;
+    justify-content: center;
+}
+.final{
+    text-align: center;
+    padding: 10%;
+}
+.bac{
+    padding: 15%;
+    width: 8%;
+}
+.foot{
+    background-color: #c4c4c481;
+}
+.foot1{
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.h3,h4{
+    text-align: center;
+    padding: 8%;
+}
+.copy{
+    padding: 5%;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:900px) {
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main1{
+        display:block;
+        text-align: center;
+        padding: 5%;
+        background-image: url(image1.jpg);
+        background-size: cover;
+        color: #fff;
+        line-height: 30px;
+    }
+    .titre{
+        border: 1px solid black;
+        background-color: #605555;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .matiere{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 10%;
+    }
+    .photo,.image{
+        width: 100%;
+    }
+    .photo{
+        display: flex;
+        flex-direction: column;
+    }
+    .avatar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5px; 
+    }
+    .avatar,.cou{
+        width: 100%;
+    }
+    .sect0{
+        display: flex;
+        justify-content: start;
+    }
+    .avatar :hover{
+        transform: translatey(10px);
+    }
+    .bac{
+        padding: 10%;
+        width: 20%;
+    }
+    .h1{
+        font-size: 10px;
+    }
+    .foot1{
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;     
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+}
+.side-bare{
+    display: flex;
+    flex-direction: column;
+}
+.pratique{
+    width: 97%;
+    background-color: #A5C0AD;
+    padding: 7px;
+    border-radius: 50px;
+}
+.opport{
+    width: 100%;
+    background-color: #C4C4C4;
+    height: 14px;
+    border-radius: 50px;
+}
+.opportun{
+    width: 100%;
+    background-color: #C4C4C4;
+    height: 14px;
+    border-radius: 50px;
+}
+.opportunite1{
+    width: 88%;
+    background-color: #A5C0AD;
+    padding: 7px;
+    border-radius: 50px;
+}
+.opportunite{
+    width: 100%;
+    background-color: #C4C4C4;
+    height: 14px;
+    border-radius: 50px;
+}
+.insere2{
+    width: 70%;
+    background-color: #A5C0AD;
+    padding: 7px;
+    border-radius: 50px;
+}
+.side-bare1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 17%
+}
+.info1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.infos{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 10PX;
+}
+}
